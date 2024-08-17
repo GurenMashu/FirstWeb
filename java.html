@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Programs - TooLazytoGpt</title>
+    <title>TooLazytoGpt</title>
     <link rel="stylesheet" href="fweb.css">
-    <script defer src="fweb.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Java Programs</h1>
-        <input type="text" id="search" placeholder="Search programs..." onkeyup="searchPrograms('java')">
-        <div id="results"></div>
+    <div class="content">
+        <h1>Welcome to TooLazytoGpt</h1>
+        <div class="button-container">
+            <a href="programs.html" class="button">Programs</a>
+            <a href="https://github.com/your-repo" class="button">GitHub</a>
+        </div>
+        <footer>
+            <p>&copy; 2024 TooLazytoGpt. All rights reserved.</p>
+        </footer>
     </div>
-    <script>
-        function searchPrograms(language) {
-            const query = document.getElementById('search').value;
-            fetchPrograms(language, query);
-        }
-    </script>
 </body>
 </html>
