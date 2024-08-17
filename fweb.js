@@ -33,7 +33,6 @@ function displayResults(results) {
     });
 }
 
-
 // Function to search programs based on the selected language and query
 function searchPrograms(language) {
     const query = document.getElementById('search').value;
