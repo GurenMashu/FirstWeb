@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Programs - TooLazytoGpt</title>
+    <link rel="stylesheet" href="fweb.css">
+    <script src="fweb.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>C Programs</h1>
+        <input type="text" id="search" placeholder="Search for a C program..." onkeyup="searchPrograms('c')">
+        <div id="results"></div>
+    </div>
+    <script>
+        function searchPrograms(language) {
+            const query = document.getElementById('search').value;
+            fetchPrograms(language, query);
+        }
+    </script>
+</body>
+</html>
