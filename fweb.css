@@ -31,16 +31,19 @@ header {
 /* Homepage Styles */
 h1 {
     color: grey; /* Grey color for headings */
+    margin-top: 0; /* Move title to the topmost part */
     margin-bottom: 30px;
 }
 
 .button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
     margin-bottom: 60px; /* Space between buttons and footer */
 }
 
 .button {
     display: inline-block;
-    margin: 15px;
     padding: 15px 30px;
     color: white;
     background: rgba(156, 39, 176, 0.3); /* Glassy effect with purple */
