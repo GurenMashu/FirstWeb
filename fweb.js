@@ -15,7 +15,6 @@ function fetchPrograms(language, query) {
 }
 
 // Function to display results in the UI
-// Function to display results in the UI
 function displayResults(results) {
     const resultsContainer = document.getElementById('results');
     resultsContainer.innerHTML = ''; // Clear previous results
